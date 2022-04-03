@@ -8,5 +8,9 @@ h1 {
   grid-template-columns: auto auto; /* 2 column grid */
   grid-gap: 2em;
   padding: 2em;
+}
 
+.full-width {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
