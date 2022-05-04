@@ -1,3 +1,8 @@
+h1 {
+    color: #570202;
+    text-align: center;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -5,9 +10,18 @@
     padding: 1em;
 }
 
+.grid-container > div {
+    background-color: rgba(0,0,0, 0.2);
+}
+
 .full-width {
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.main-content {
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 
 .navbar {
