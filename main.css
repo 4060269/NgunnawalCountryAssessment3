@@ -9,3 +9,21 @@
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #2ccbb4;
+}
