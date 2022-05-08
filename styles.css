@@ -47,7 +47,7 @@ html, body {
 }
 
 .main-header {
-    background-image: url('/Images/Ngunnawal-banner.png');
+    background-image: url('https://rawcdn.githack.com/4060269/NgunnawalCountryWebDev/b9db498da5f886e66eab5823c0488da4f578b0cc');
     background-position: center;
     background-size: cover;
     padding-bottom: 30px;
