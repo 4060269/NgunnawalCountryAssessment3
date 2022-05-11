@@ -61,6 +61,7 @@ html, body {
 
 .title-large { 
     font-size: 7em;
+    padding: 0.4em;
 }
 
 .content-section {
@@ -104,6 +105,11 @@ html, body {
 .main-footer-container ul {
     flex-grow: 1;
     text-align: right;
+}
+
+.footer-text {
+    display: flex;
+    padding: 0.5em;
 }
 
 .footer-nav li {
