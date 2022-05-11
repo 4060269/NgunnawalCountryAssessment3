@@ -3,177 +3,176 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@600&display=swap');
 
 * {
-    box sizing: border-box;
-    font-family: 'Urbanist', sans-serif;
-    color: whitesmoke;
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+  color: whitesmoke;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .nav ul {
-    margin: 0;
+  margin: 0;
 }
 
 .nav li {
-    display: inline;
+  display: inline;
 }
 
 .nav a {
-    display: inline-block;
-    padding: 1em;
-    color: white;
-    text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
 }
 
 .main-nav {
-    text-align: center;
-    font-size: 1em;
-    font-weight: lighter;
-    border-bottom: 1px solid #777; 
-    border: 1px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: lighter;
+  border-bottom: 1px solid #777;
+  border: 1px;
 }
 
 .main-nav li {
-    padding: 0 5%;
+  padding: 0 5%;
 }
 
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .main-header {
-    background-image: url('https://rawcdn.githack.com/4060269/NgunnawalCountryWebDev/b9db498da5f886e66eab5823c0488da4f578b0cc');
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 30px;
+  background-image: url('https://rawcdn.githack.com/4060269/NgunnawalCountryWebDev/b9db498da5f886e66eab5823c0488da4f578b0cc');
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 30px;
 }
 
 .title {
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Azeret Mono', monospace;
-    margin: 0;
-    font-size: 4em;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Azeret Mono', monospace;
+  margin: 0;
+  font-size: 4em;
 }
 
-.title-large { 
-    font-size: 7em;
-    padding: 0.4em;
+.title-large {
+  font-size: 7em;
+  padding: 0.4em;
 }
 
 .content-section {
-    margin: 1em;
-
+  margin: 1em;
 }
 
 .container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 6em;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 6em;
 }
 
 .section-header {
-    font-family: 'Azeret Mono', monospace;
-    color: whitesmoke;
-    text-decoration: none;
-    text-align: center;
-    font-size: 2.5em;
+  font-family: 'Azeret Mono', monospace;
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.5em;
 }
 
 .main-content-img {
-    float: left;
-    width: 20%;
-    height: 100%;
-    margin: 15px;
-    border-radius: 20%;
+  float: left;
+  width: 20%;
+  height: 100%;
+  margin: 15px;
+  border-radius: 20%;
 }
 
 .main-footer {
-    background-color: #b92d2c;
-    color: White;
-    padding: .25em 0;
+  background-color: #b92d2c;
+  color: White;
+  padding: 0.25em 0;
 }
 
 .main-footer-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .main-footer-container ul {
-    flex-grow: 1;
-    text-align: right;
+  flex-grow: 1;
+  text-align: right;
 }
 
 .footer-text {
-    display: flex;
+  display: flex;
 }
 
 .footer-nav li {
-    padding: 0 .5em;
+  padding: 0 0.5em;
 }
 
 .footer-nav img {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .btn {
-    text-align: center;
-    vertical-align: middle;
-    padding: .67em;
-    cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
 }
 
 body {
-    background-color: #121212;
+  background-color: #121212;
 }
 
 .btn-header {
-    display: block;
-    margin: 0 auto;
-    color: white;
-    border: 2px solid #333;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 1;
-    font-size: 1em;
-    font-weight: lighter;
-    padding-left: 2em;
-    padding-right: 2em;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  border: 2px solid #333;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 1;
+  font-size: 1em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .btn-header:hover {
-    background-color: rgba(255, 255, 255, .3)
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .btn-play {
-    display: block;
-    margin: 0 auto;
-    color: aliceblue;
+  display: block;
+  margin: 0 auto;
+  color: aliceblue;
 }
 
 .button-primary {
-    color: whitesmoke;
-    background-color: #2cb8b9;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
+  color: whitesmoke;
+  background-color: #2cb8b9;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
 }
 
 .button-primary:hover {
-    background-color: #777;
+  background-color: #777;
 }
 
-
 .btn-danger {
-    color: white;
-    background-color: red;
-    border: none;
-    border-radius: .3em;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 0.3em;
 }
 
 .btn-danger:hover {
-    background-color: darkred;
+  background-color: darkred;
 }
