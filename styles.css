@@ -52,6 +52,25 @@ body {
   padding-bottom: 30px;
 }
 
+form {
+  background-color: #4654e1;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: left;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  font: 16px Urbanist;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
 .title {
   text-align: center;
   color: whitesmoke;
