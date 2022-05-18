@@ -2,198 +2,397 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@600&display=swap');
 
+
+
 * {
-  box-sizing: border-box;
-  font-family: 'Urbanist', sans-serif;
-  color: whitesmoke;
+    box sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+    color: whitesmoke;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .nav ul {
-  margin: 0;
+    margin: 0;
 }
 
 .nav li {
-  display: inline;
+    display: inline;
 }
 
 .nav a {
-  display: inline-block;
-  padding: 1em;
-  color: white;
-  text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
 }
 
 .main-nav {
-  text-align: center;
-  font-size: 1em;
-  font-weight: lighter;
-  border-bottom: 1px solid #777;
-  border: 1px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: lighter;
+    border-bottom: 1px solid #777;
+    border: 1px;
 }
 
 .main-nav li {
-  padding: 0 5%;
+    padding: 0 5%;
 }
 
 .nav a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, .3)
 }
 
 .main-header {
-  background-image: url(/Images/Ngunnawal-country-banner.png);
-  background-position: center;
-  background-size: cover;
-  padding-bottom: 30px;
+    background-image: url(https://rawcdn.githack.com/4060269/NgunnawalCountryWebDev/acd81713929e874598bffc8d20f2ed3be696c257/Images/Ngunnawal-country-banner.png);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding-bottom: 30px;
 }
 
-form {
-  background-color: #4654e1;
-  width: 300px;
-  height: 44px;
-  border-radius: 5px;
-  display: left;
-  flex-direction: row;
-  align-items: center;
+.band-name {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Azeret Mono', monospace;
+    margin: 0;
+    font-size: 3em;
 }
 
-input {
-  all: unset;
-  font: 16px Urbanist;
-  color: #fff;
-  height: 100%;
-  width: 100%;
-  padding: 6px 10px;
-}
-
-.title {
-  text-align: center;
-  color: whitesmoke;
-  font-family: 'Azeret Mono', monospace;
-  margin: 0;
-  font-size: 4em;
-}
-
-.title-large {
-  font-size: 5em;
-  padding: 0.4em;
+.band-name-large {
+    font-size: 4em;
 }
 
 .content-section {
-  margin: 1em;
+    margin: 1em;
+
 }
 
 .container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 6em;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 6em;
 }
 
 .section-header {
-  font-family: 'Azeret Mono', monospace;
-  color: whitesmoke;
-  text-decoration: none;
-  text-align: center;
-  font-size: 2.5em;
+    font-family: 'Azeret Mono', monospace;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.5em;
 }
 
-.main-content-img {
-  float: left;
-  width: 20%;
-  height: 100%;
-  margin: 15px;
-  border-radius: 20%;
+.about-logic-image {
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 15px;
+    border-radius: 20%;
 }
 
 .main-footer {
-  background-color: #b92d2c;
-  font-weight: lighter;
-  color: White;
-  padding: 0.25em 0;
+    background-color: #b92d2c;
+    color: White;
+    padding: .25em 0;
 }
 
 .main-footer-container {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .main-footer-container ul {
-  flex-grow: 1;
-  text-align: right;
-}
-
-.footer-text {
-  font-size: 1.5em;
-  display: flex;
+    flex-grow: 1;
+    text-align: right;
 }
 
 .footer-nav li {
-  padding: 0 0.5em;
+    padding: 0 .5em;
 }
 
 .footer-nav img {
-  width: 200px;
-  height: 100px;
+    width: 30px;
+    height: 30px;
 }
 
 .btn {
-  text-align: center;
-  vertical-align: middle;
-  padding: 0.67em;
-  cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
 }
 
 body {
-  background-color: #121212;
+    background-color: #121212;
 }
 
 .btn-header {
-  display: block;
-  margin: 0 auto;
-  color: white;
-  border: 2px solid #333;
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 1;
-  font-size: 1em;
-  font-weight: lighter;
-  padding-left: 2em;
-  padding-right: 2em;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    border: 2px solid #333;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 1;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .btn-header:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, .3)
 }
 
 .btn-play {
-  display: block;
-  margin: 0 auto;
-  color: aliceblue;
+    display: block;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.album-row {
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.album-row:last-child {
+    border-bottom: none;
+}
+
+.album-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.album-name {
+    font-weight: bolder;
+    width: 24%;
+}
+
+.album-date {
+    width: 11%;
+}
+
+.album-quote {
+    width: 42%;
+}
+
+.album-button {
+    position: relative;
+    top: -20px;
+    max-width: 19%;
+
 }
 
 .button-primary {
-  color: whitesmoke;
-  background-color: #2cb8b9;
-  border: none;
-  border-radius: 0.3em;
-  font-weight: bold;
+    color: whitesmoke;
+    background-color: #2cb8b9;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
 }
 
 .button-primary:hover {
-  background-color: #777;
+    background-color: #777;
+}
+
+.shop-item {
+    margin: 1em;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+.shop-item-img {
+    height: 275px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop-item-reduced {
+    color: red;
+    margin: -60px;
+}
+
+.shop-item-price-reduced {
+    color: red;
+
+}
+
+.cart-header {
+    font-size: 1.2em;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: 0.5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
 }
 
 .btn-danger {
-  color: white;
-  background-color: red;
-  border: none;
-  border-radius: 0.3em;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: .3em;
 }
 
 .btn-danger:hover {
-  background-color: darkred;
+    background-color: darkred;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: #333;
+    padding: 0%;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid white;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+  /* dropdown responsive code start */
+  .content .links ul,
+  .content .links ul ul{
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    background: none;
+    max-height: 0px;
+    overflow: hidden;
+  }
+  .content .links #show-features:checked ~ ul,
+  .content .links #show-services:checked ~ ul,
+  .content .links #show-items:checked ~ ul{
+    max-height: 100vh;
+  }
+  .content .links ul li{
+    margin: 7px 20px;
+  }
+  .content .links ul li a{
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 5px!important;
+  }
+}
+@media screen and (max-width: 400px){
+  .wrapper nav{
+    padding: 0 10px;
+  }
+  .content .logo a{
+    font-size: 27px;
+  }
+  .wrapper .search-box{
+    max-width: calc(100% - 70px);
+  }
+  .wrapper .search-box .go-icon{
+    width: 30px;
+    right: 0;
+  }
+  .wrapper .search-box input{
+    padding-right: 30px;
+  }
+}
+.dummy-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  z-index: -1;
+  padding: 0 20px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.dummy-text h2{
+  font-size: 45px;
+  margin: 5px 0;
 }
