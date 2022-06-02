@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="styles.css" />
 
   <style>
     * {box-sizing:border-box}
@@ -117,7 +117,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg" style="background-image: url(/Images/Requisites/Ngunnawal-country-banner.png);
+    <nav class="navbar navbar-expand-lg" style="background-image: url(Images/Requisites/Ngunnawal-country-banner.png);
     background-size: 1000px 150px;
     background-position: right;
     background-repeat: repeat;
@@ -125,7 +125,7 @@
 
 
       <img class="navbar-brand"
-        src="https://rawcdn.githack.com/4060269/NgunnawalCountryWebDev/11545666c06b32d8f8cef29c0316ff6d5b270260/Images/Ngunnawal-logo.png"
+        src="/Images/Requisites/Ngunnawal-logo.png"
         width="40px" height="65px" class="navbar-brand" href="#"></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -165,7 +165,7 @@
         <!-- Full-width images with number and caption text -->
         <div class="mySlides">
           <div class="numbertext">1 / 3</div>
-          <img src="https://rawcdn.githack.com/4060269/NgunnawalCountryAssessment3/1fc551325955daaa8fe63590400ea9ada92bd97c/Images/Content/Ngunnawal-pierre-pouliquin.png" style="width:100%">
+          <img src="Images/Content/Ngunnawal-pierre-pouliquin.png" style="width:100%">
           <div class="text">Caption Text</div>
         </div>
 
@@ -177,7 +177,7 @@
 
         <div class="mySlides">
           <div class="numbertext">3 / 3</div>
-          <img src="https://rawcdn.githack.com/4060269/NgunnawalCountryAssessment3/1fc551325955daaa8fe63590400ea9ada92bd97c/Images/Content/ngunnawal-spelio.png" style="width:100%">
+          <img src="Images/Content/ngunnawal-spelio.png" style="width:100%">
           <div class="text">Caption Three</div>
         </div>
 
@@ -195,30 +195,31 @@
       </div>
 
 
-  <footer class="main-footer">
-    <div class="container main-footer-container">
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+    
+          <h3 style="font-size: 1.5em;" class="band-name">Ngunnawal Country</h3>
+          <ul class="nav footer-nav">
+    
+            <li>
+              <a>
+                We acknowledge the Traditional Custodians of the ACT, the Ngunnawal
+                people. We acknowledge and respect their continuing culture and the
+                contribution they make to the life of this city and this region.
+              </a>
+            </li>
+    
+            <li style="width: 100%;">
+              <a href="https://www.act.gov.au/ngunnawal-country"
+              style="background-size:contain">
+    
+                <img src="Images/Footer/government-icon.png"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </footer>
 
-      <h3 style="font-size: 1.5em;" class="band-name">Ngunnawal Country</h3>
-      <ul class="nav footer-nav">
-
-        <li>
-          <a>
-            We acknowledge the Traditional Custodians of the ACT, the Ngunnawal
-            people. We acknowledge and respect their continuing culture and the
-            contribution they make to the life of this city and this region.
-          </a>
-        </li>
-
-        <li style="width: 100%;">
-          <a href="https://www.act.gov.au/ngunnawal-country" style="background-size:contain">
-
-            <img
-              src="https://rawcdn.githack.com/4060269/NgunnawalCountryWebDev/99cd039e16647c63a153dbcfd3309907c2a2773e/Images/government-icon.png" />
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
   <script>
     let slideIndex = 1;
       showSlides(slideIndex);
